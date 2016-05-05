@@ -1,0 +1,23 @@
+{
+  "name": "thingsolution/cleanphp",
+  "description": "The clean php framework",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Michael",
+      "email": "hungnv038@gmail.com"
+    }
+  ],
+  "require": {
+    "thingsolution/thingorm": "dev-master",
+    "cinnamonlab/framework": "dev-master",
+    "cinnamonlab/db": "1.0.0",
+    "cinnamonlab/blade": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\":"app/"
+    }
+  }
+}
